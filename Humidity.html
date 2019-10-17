@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Humidity</title>
+</head>
+<nav class="navbar navbar-inverse">
+		<div class="container">
+
+			<!--Logo-->
+			<div class="logo">
+				<a href="index.html" class="navbar-brand">HOME PAGE - LATITUDE</a>
+			</div>
+
+			<!--Menu-->
+			<div>
+				<ul class="nav navbar-nav" style="float:right">
+
+								<!--DropDownMenu-->
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="Temp.html">Max Temperature</a></li>
+							<li><a href="Humidity.html">Humidity</a></li>
+							<li><a href="cloud.html">Cloudiness</a></li>
+							<li><a href="wind.html">Wind Speed</a></li>
+						</ul>
+					</li>
+					<li><a href="comparison.html">Comparison</a></li>
+					<li><a href="Data.html">Data</a></li>
+
+				</ul>
+			</div>
+
+
+		</div>
+		
+	</nav>
+<body style="background-color:rgb(206, 75, 211); padding-top: 50px; padding-bottom: 30px; padding-left: 20px;">
+	<h2> Latitude vs. Humidity</h2>
+	<div class="col-xs-7 col-sm-6 col-lg-8">
+		<p>
+			<img src="images/Fig2.png" class="img-responsive img-thumbnail" style="float:left;"> The humidity doesn't seem to be affected by the latitude. It seems to be ditributed evenly across the latitude range.  
+		</p>
+		
+	</div>
+	<div class="col-lg-4">
+			<div class="content-box">
+			<h2 class="h">Visualizations</h2>
+			<hr>
+			<a href="Temp.html">
+				<img class="img-nav-panel" src="images/Fig1.png">
+			</a>
+			<a href="cloud.html">
+				<img class="img-nav-panel img-nav-active" src="images/Fig3.png">
+			</a>
+			<a href="wind.html">
+				<img class="img-nav-panel" src="images/Fig4.png">
+			</a>
+			<a href="Humidity.html">
+				<img class="img-nav-panel" src="images/Fig2.png">
+			</a>
+		</div>
+	</div>
+
+</body>
+</html>

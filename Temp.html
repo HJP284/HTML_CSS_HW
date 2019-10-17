@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Temperature</title>
+</head>
+<nav class="navbar navbar-inverse">
+		<div class="container">
+
+			<!--Logo-->
+			<div class="logo">
+				<a href="index.html" class="navbar-brand">HOME PAGE - LATITUDE</a>
+			</div>
+
+			<!--Menu-->
+			<div>
+				<ul class="nav navbar-nav" style="float:right">
+
+								<!--DropDownMenu-->
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="Temp.html">Max Temperature</a></li>
+							<li><a href="Humidity.html">Humidity</a></li>
+							<li><a href="cloud.html">Cloudiness</a></li>
+							<li><a href="wind.html">Wind Speed</a></li>
+						</ul>
+					</li>
+					<li><a href="comparison.html">Comparison</a></li>
+					<li><a href="Data.html">Data</a></li>
+
+				</ul>
+			</div>
+
+
+		</div>
+		
+	</nav>
+<body style="background-color:rgb(219, 111, 23); padding-top: 50px; padding-bottom: 30px; padding-left: 20px;">
+	<h2>Temperature</h2>
+	<div class="col-xs-7 col-sm-6 col-lg-10">
+		<p>
+			<img src="images/Fig1.png" class="img-responsive img-thumbnail" style="float:left;">
+			As we all have hypothesized, the closer you get to the equator, the hotter it gets. Latitude is one of the main factors affecting temperature. </p>
+			
+		<p>Latitude is the measurement of the distance of a location on the Earth from the equator. The further away from the equator that you are the less sunlight that this location receives. This has to do with the shape of the earth. Since Earth is round, not every place receives the same amount of sunlight, or heat. Another reason is due to the angle of solar incidence, this is the angle at which the Sun's rays strike the Earth's surface. At the Equator, the Sun's rays strike the Earth at a right angle, which makes the heat more intense and concentrated over a small area. Less heat is lost to the atmosphere as the rays travel a shorter distance through the atmosphere.
+			At the poles, the Sun's rays strike the Earth at an acute angle, this spreads the heat over a larger area. More heat is lost to the atmosphere as the rays travel a longer distance through the atmosphere.	Reference: https://latitudealtitude.weebly.com/how-latitude-affects-temperature.html	</p>
+		</div>
+	</div>	
+		
+	<div class="col-lg-4">
+			<div class="content-box">
+			<h2 class="h">Visualizations</h2>
+			<hr>
+			<a href="Temp.html">
+				<img class="img-nav-panel" src="images/Fig1.png">
+			</a>
+			<a href="cloud.html">
+				<img class="img-nav-panel img-nav-active" src="images/Fig3.png">
+			</a>
+			<a href="wind.html">
+				<img class="img-nav-panel" src="images/Fig4.png">
+			</a>
+			<a href="Humidity.html">
+				<img class="img-nav-panel" src="images/Fig2.png">
+			</a>
+	</div>
+	
+
+</body>
+</html>
